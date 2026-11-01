@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+data/
+.DS_Store
+*.egg-info/
+
+# 社内 TLS 傍受プロキシの CA (ローカル検証用, 公開しない)
+ros2_ws/ca/*.crt
+ros2_ws/ca/*.pem
+
+# colcon のビルド成果物
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# 課題の指示書 (個人アカウント名とローカルパスを含むため公開しない)
+plan.md

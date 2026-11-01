@@ -1,0 +1,20 @@
+train=3549 val=483 positive_rate=0.1790
+U-Net parameters: 0.386 M
+BCE pos_weight=4.59
+epoch  1/16  train_loss=1.3851  val_bce=0.5750  val_IoU=0.5833  (109s)
+epoch  2/16  train_loss=1.1050  val_bce=0.4718  val_IoU=0.6946  (109s)
+epoch  3/16  train_loss=0.8824  val_bce=0.3296  val_IoU=0.6980  (112s)
+epoch  4/16  train_loss=0.7157  val_bce=0.3331  val_IoU=0.7383  (111s)
+epoch  5/16  train_loss=0.6201  val_bce=0.3579  val_IoU=0.7493  (108s)
+epoch  6/16  train_loss=0.5682  val_bce=0.3054  val_IoU=0.6692  (110s)
+epoch  7/16  train_loss=0.4740  val_bce=0.2850  val_IoU=0.7521  (109s)
+epoch  8/16  train_loss=0.4489  val_bce=0.2890  val_IoU=0.7571  (109s)
+epoch  9/16  train_loss=0.4171  val_bce=0.2377  val_IoU=0.7408  (109s)
+epoch 10/16  train_loss=0.4053  val_bce=0.2534  val_IoU=0.7707  (110s)
+epoch 11/16  train_loss=0.3934  val_bce=0.2361  val_IoU=0.7534  (116s)
+epoch 12/16  train_loss=0.3804  val_bce=0.2442  val_IoU=0.7740  (113s)
+epoch 13/16  train_loss=0.3729  val_bce=0.2245  val_IoU=0.7618  (112s)
+epoch 14/16  train_loss=0.3647  val_bce=0.2409  val_IoU=0.7807  (112s)
+epoch 15/16  train_loss=0.3615  val_bce=0.2347  val_IoU=0.7793  (111s)
+epoch 16/16  train_loss=0.3596  val_bce=0.2315  val_IoU=0.7769  (111s)
+best val IoU = 0.7807  -> models/grass_unet.pt

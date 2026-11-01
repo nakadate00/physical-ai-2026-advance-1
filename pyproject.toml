@@ -1,0 +1,31 @@
+[project]
+name = "agripioneer"
+version = "1.0.0"
+description = "耕作放棄地を自動で開拓する草刈りロボットのシミュレーション (Physical AI 応用1 最終課題)"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "mujoco>=3.1",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "torch>=2.2",
+    "joblib>=1.3",
+    "imageio>=2.34",
+    "imageio-ffmpeg>=0.4",
+    "pillow>=10.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
