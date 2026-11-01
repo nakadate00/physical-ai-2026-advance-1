@@ -1,0 +1,32 @@
+Summary: 1 package finished [0.80s]
+--- ros2 launch agripioneer_ros agripioneer.launch.py (150s) ---
+[controller_node-4] [INFO] [1793493246.880650005] [controller_node]: 経路を受信: 6 点
+[planner_node-3] [INFO] [1793493246.880796463] [planner_node]: 探査経路を配信しました (SURVEY)
+[simulator_node-1] [INFO] [1793493247.196824755] [simulator_node]: MuJoCo 起動: 草 206 本 (対象 205 本), 区画 1.818 m 角
+[perception_node-2] [INFO] [1793493247.445221422] [perception_node]: U-Net 読込 (val IoU=0.7807)
+[simulator_node-1] [INFO] [1793493257.255633926] [simulator_node]: t=   8.7s  走行   2.78 m  刈り取り 24/205 (11.7 %)
+[simulator_node-1] [INFO] [1793493267.231949625] [simulator_node]: t=  18.3s  走行   6.03 m  刈り取り 50/205 (24.4 %)
+[planner_node-3] [INFO] [1793493267.516279542] [planner_node]: 経路追従の完了を受信 (地図被覆率 95.5 %) — 再計画します
+[controller_node-4] [INFO] [1793493267.516488750] [controller_node]: 経路追従を完了しました
+[planner_node-3] [INFO] [1793493267.520036959] [planner_node]: [第 1 巡] しきい値 0.60 / 草むら 1 箇所 / 計画経路 13.73 m (うち移動 1.60 m) を配信
+[controller_node-4] [INFO] [1793493267.521494167] [controller_node]: 経路を受信: 17 点
+[simulator_node-1] [INFO] [1793493277.242076297] [simulator_node]: t=  27.7s  走行   8.45 m  刈り取り 68/205 (33.2 %)
+[simulator_node-1] [INFO] [1793493287.237255968] [simulator_node]: t=  37.3s  走行  11.17 m  刈り取り 130/205 (63.4 %)
+[simulator_node-1] [INFO] [1793493297.245921833] [simulator_node]: t=  46.8s  走行  13.81 m  刈り取り 151/205 (73.7 %)
+[simulator_node-1] [INFO] [1793493307.235481213] [simulator_node]: t=  56.4s  走行  16.68 m  刈り取り 168/205 (82.0 %)
+[controller_node-4] [INFO] [1793493315.116191759] [controller_node]: 経路追従を完了しました
+[planner_node-3] [INFO] [1793493315.116196300] [planner_node]: 経路追従の完了を受信 (地図被覆率 100.0 %) — 再計画します
+[planner_node-3] [INFO] [1793493315.222154884] [planner_node]: [第 2 巡] しきい値 0.60 / 草むら 2 箇所 / 計画経路 3.11 m (うち移動 0.66 m) を配信
+[controller_node-4] [INFO] [1793493315.222380592] [controller_node]: 経路を受信: 7 点
+[simulator_node-1] [INFO] [1793493317.256508510] [simulator_node]: t=  66.0s  走行  19.12 m  刈り取り 205/205 (100.0 %)
+[simulator_node-1] [INFO] [1793493327.258551000] [simulator_node]: t=  75.6s  走行  21.63 m  刈り取り 205/205 (100.0 %)
+[controller_node-4] [INFO] [1793493327.965938959] [controller_node]: 経路追従を完了しました
+[planner_node-3] [INFO] [1793493327.966158084] [planner_node]: 経路追従の完了を受信 (地図被覆率 100.0 %) — 再計画します
+[planner_node-3] [INFO] [1793493327.967607917] [planner_node]: 刈り残しなし — 刈り取り完了
+[controller_node-4] [INFO] [1793493327.968028167] [controller_node]: 経路を受信: 0 点
+[simulator_node-1] [INFO] [1793493337.253494838] [simulator_node]: t=  85.3s  走行  21.84 m  刈り取り 205/205 (100.0 %)
+[simulator_node-1] [INFO] [1793493347.257127968] [simulator_node]: t=  94.8s  走行  21.84 m  刈り取り 205/205 (100.0 %)
+[simulator_node-1] [INFO] [1793493357.256097000] [simulator_node]: t= 104.4s  走行  21.84 m  刈り取り 205/205 (100.0 %)
+[simulator_node-1] [INFO] [1793493367.258312130] [simulator_node]: t= 114.0s  走行  21.84 m  刈り取り 205/205 (100.0 %)
+[simulator_node-1] [INFO] [1793493377.257116635] [simulator_node]: t= 123.6s  走行  21.84 m  刈り取り 205/205 (100.0 %)
+[simulator_node-1] [INFO] [1793493387.253572667] [simulator_node]: t= 133.2s  走行  21.84 m  刈り取り 205/205 (100.0 %)
